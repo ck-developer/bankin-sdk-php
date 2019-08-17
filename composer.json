@@ -1,0 +1,38 @@
+{
+    "name": "ck-developer/bankin-sdk-php",
+    "authors": [
+        {
+            "name": "Claude Khedhiri",
+            "email": "claude@khedhiri.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bankin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bankin\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php-http/client-common": "^2.0",
+        "php-http/discovery": "^1.7",
+        "psr/http-client": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-factory": "^1.0",
+        "nyholm/psr7": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "php-http/guzzle6-adapter": "^2.0",
+        "symfony/var-dumper": "^4.3",
+        "php-http/mock-client": "^1.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

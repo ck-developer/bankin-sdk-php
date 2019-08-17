@@ -1,0 +1,16 @@
+HTTP/2 204 
+date: Mon, 12 Aug 2019 09:31:58 GMT
+server: nginx
+vary: Origin
+pragma: no-cache
+expires: 0
+request-time: 531
+x-robots-tag: noindex
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+referrer-policy: strict-origin-when-cross-origin
+x-frame-options: DENY
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+content-security-policy: default-src 'self'; img-src 'self' https://web.bankin.com; data: https://*.bankin.com
+strict-transport-security: max-age=31536000; includeSubDomains; preload;
+

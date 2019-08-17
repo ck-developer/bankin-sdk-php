@@ -1,0 +1,20 @@
+HTTP/2 200 
+date: Thu, 15 Aug 2019 12:45:18 GMT
+content-type: application/json
+content-length: 294
+server: nginx
+vary: Accept-Encoding
+vary: Origin
+pragma: no-cache
+expires: 0
+request-time: 35
+x-robots-tag: noindex
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+referrer-policy: strict-origin-when-cross-origin
+x-frame-options: DENY
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+content-security-policy: default-src 'self'; img-src 'self' https://web.bankin.com; data: https://*.bankin.com
+strict-transport-security: max-age=31536000; includeSubDomains; preload;
+
+{"resources":[{"uuid":"ced7c68a-6692-4efe-882b-c03a787f118b","resource_uri":"/v2/users/ced7c68a-6692-4efe-882b-c03a787f118b","resource_type":"user","email":"john@doe.com"}],"pagination":{"previous_uri":null,"next_uri":"/v2/users?after=Y2VkN2M2OGEtNjY5Mi00ZWZlLTg4MmItYzAzYTc4N2YxMThi&limit=1"}}
